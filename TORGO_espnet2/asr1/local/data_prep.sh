@@ -24,6 +24,19 @@ python3 local/data_prep.py $data_loc data/train2 $C_train
 python3 local/data_prep.py $data_loc data/test1 $D_test
 python3 local/data_prep.py $data_loc data/test2 $C_test
 
+
+lines=$(awk -F" " '{print $2}' "data/test1/wav.scp")
+for line in $lines; do
+  dur=$(soxi -D $line)
+  if (( $(echo "$dur < 0.1" | bc -l) )); then
+    linename=$(basename "$line" | cut -d. -f1)
+    sed -i "/$linename/d" data/test1/wav.scp
+    sed -i "/$linename/d" data/test1/utt2spk
+    sed -i "/$linename/d" data/test1/text
+
+fi
+done
+
 #sort and remove repeating entries from created files, also create spk2utt
 
 for dataset in data/{train1,train2,test1,test2}; do
