@@ -13,12 +13,13 @@ How to use?
 # UASpeech
 Expected results, without hyper parameter tuning-
  on UASpeech- 
- | without LM |  |
- |---------|---------|
+ without LM 
+ 
  |control|dysarthric
- | 83.4 |87.2 
+ UASpeech|---------|---------|
+ Transfer learning| 83.4 |87.2 
 
 with LM
 |control|dysarthric|
-|---------|---------|
-| 83.4 |87.2 |
+UASpeech|---------|---------|
+Transfer learning| 83.4 |87.2 |
