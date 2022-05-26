@@ -19,7 +19,9 @@ Expected results, without hyper parameter tuning-
  |---------|---------|---------|
  |UASpeech|||
  |Transfer learning| 83.4 |87.2 |
+ 
 with LM
+
 |trainset|control|dysarthric|
 |---------|---------|---------|
 |UASpeech| | |
