@@ -13,8 +13,12 @@ How to use?
 # UASpeech
 Expected results, without hyper parameter tuning-
  on UASpeech- 
- | without LM | with LM |
+ | without LM |  |
  |---------|---------|
- |control|dysarthric|control|dysarthric|
- | 83.4 |87.2 | 83.4 control|dysarthric||87.2 |
- | ||
+ |control|dysarthric
+ | 83.4 |87.2 
+
+with LM
+|control|dysarthric|
+|---------|---------|
+| 83.4 |87.2 |
