@@ -10,3 +10,9 @@ How to use?
 - Data augmentation: https://colab.research.google.com/drive/1giatjCVXk0KpPqRr3civNUqCjKYgp6Nf?usp=sharing
 - Inference colab: https://colab.research.google.com/drive/1FOJ00xYil7T1dH31K5kJv7NJbxKWmRRe?usp=sharing
 
+# UASpeech
+Expected results, without hyper parameter tuning-
+ on UASpeech- 
+ 
+ | 83.4 87.2 | 83.4 87.2 |
+ | --------- | --------- |
