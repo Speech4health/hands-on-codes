@@ -27,3 +27,7 @@ with LM
 |---------|---------|---------|
 |UASpeech| 83.4 |87.2 |
 |Transfer learning| 47 | 55.7 |
+
+
+Recipe will be added on June 7th 2022. email us at speech4health@gmail.com
+ if you have any questions
