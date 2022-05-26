@@ -13,6 +13,7 @@ How to use?
 # UASpeech
 Expected results, without hyper parameter tuning-
  on UASpeech- 
- 
+ | without LM | with LM |
+ |---------|---------|
  | 83.4 87.2 | 83.4 87.2 |
- | --------- | --------- |
+ | ||
