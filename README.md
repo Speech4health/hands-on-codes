@@ -15,5 +15,6 @@ Expected results, without hyper parameter tuning-
  on UASpeech- 
  | without LM | with LM |
  |---------|---------|
- | 83.4 87.2 | 83.4 87.2 |
+ |control|dysarthric|control|dysarthric|
+ | 83.4 |87.2 | 83.4 control|dysarthric||87.2 |
  | ||
